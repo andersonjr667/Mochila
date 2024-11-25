@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #4B0082; /* Violeta */
+}
+
+header {
+    background-color: #FF69B4; /* Rosa */
+    color: #4B0082; /* Violeta */
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header button {
+    background-color: #FF69B4; /* Rosa */
+    color: #4B0082; /* Violeta */
+    border: none;
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #FF8CB8; /* Tom de rosa mais claro ao passar o mouse */
+}
+
+.features {
+    margin: 2em 0;
+    padding: 0 1em;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 1em 0;
+}
+
+.gallery {
+    margin: 2em 0;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #F4E1F7; /* Fundo violeta claro */
+    padding: 1em 0;
+    margin-top: 2em;
+    color: #4B0082; /* Violeta */
+}
